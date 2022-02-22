@@ -1,0 +1,37 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    margin: 7% 0 0 42%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    color: rgb(65, 106, 182);
+}
+
+input{
+    height: 1.5rem;
+    margin: 2% 0 0 40%;
+    border-radius: 7px;
+}
+input::placeholder{
+    padding-left: 3px;
+    font-size: 0.75rem;
+}
+#submit{
+    width: 2.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(48, 167, 161);
+    color: rgb(235, 224, 224);
+}
+#clear{
+    width: 3rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 7, 7);
+    color: rgb(255, 254, 254);
+}
